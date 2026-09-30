@@ -1,0 +1,17 @@
+{
+ "version": "v1.0",
+ "date": "2026-09-30",
+ "game": "Zill O'll Infinite (Japan) / SLPM-65892 / PS2 (DVD, ISO)",
+ "asset": "ZillOll_Infinite_PS2_KO_v1.0.xdelta",
+ "asset_size": 2910120,
+ "asset_sha256": "bf546e125d5781328159dc0f7c251156030c4c4bf2ac9c4aacee1de651ba98e7",
+ "xdelta_options": "xdelta3 3.1.0, -e -9 -S none -A (no secondary compression, no application header)",
+ "source_iso_size": 3361144832,
+ "source_iso_md5": "0dff715c5ae54b1cff759c35ca977c4e",
+ "source_iso_sha1": "fbead9189f5c4690e84349eac980a5520bdbc7f9",
+ "source_iso_sha256": "d32ec5b594e9d7ab5b8eed764c8733ea55566037e65a8541c47646cbc964f1f2",
+ "output_iso_size": 3361144832,
+ "output_iso_md5": "f49ed48739582f6535d30806dc5b8c8b",
+ "output_iso_sha1": "7767e0cb25f564978c413a7b838b7ff13113e9d5",
+ "output_iso_sha256": "55e17f0b45d53e5fa6d524d6a643469fc99c2223aa1919d8a2d585c794b899f4"
+}
