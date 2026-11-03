@@ -61,6 +61,10 @@ python tools/apply_release.py --xdelta .\xdelta3.exe --source ".\Zill O'll Infin
 
 한글판 ISO 를 여세요. **원본판이나 다른 버전에서 만든 세이브 스테이트는 불러오지 마세요.** 이어 하기는 게임 안 메모리 카드 저장을 쓰세요. 메모리 카드 세이브는 원본판과 호환됩니다.
 
+### 16:9 와이드 패치 (PCSX2 전용, 선택)
+
+릴리즈에 함께 첨부된 `SLPM-65892_E206B1A4.pnach`(한글판용)를 PCSX2 의 `patches` 폴더에 넣으세요. 그다음 게임 속성 → 패치에서 **Widescreen 16:9** 를 켜면 3D 화면이 16:9 로 나옵니다. 자세한 방법과 한계는 [docs/WIDESCREEN.md](docs/WIDESCREEN.md) 를 보세요. 일본 원본용은 `SLPM-65892_FC6BAAF0.pnach` 입니다.
+
 ## 작업 내용과 범위
 
 | 구분 | 내용 |

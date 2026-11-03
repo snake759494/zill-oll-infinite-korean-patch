@@ -1,0 +1,15 @@
+gametitle=Zill O'll Infinite (Japan) (Korean) [SLPM-65892]
+
+[Widescreen 16:9]
+author=snake759494 (질 올 인피니트 한글패치)
+description=3D 화면을 16:9 비율로 보정합니다(세로 투영 x4/3). PCSX2 화면 비율을 16:9 로 바꿉니다.
+gsaspectratio=16:9
+// 투영 행렬 함수(0x13D948)가 행렬 채움(0x13DE50)을 부르기 전에 세로 배율(f15)에 4/3 을 곱하는 코드를 빈 메모리 0xFFF80 에 둠
+patch=1,EE,000FFF80,word,3C013FAA
+patch=1,EE,000FFF84,word,3421AAAB
+patch=1,EE,000FFF88,word,44810800
+patch=1,EE,000FFF8C,word,46017BC2
+patch=1,EE,000FFF90,word,0804F794
+patch=1,EE,000FFF94,word,00000000
+// jal 0x13DE50 -> jal 0xFFF80
+patch=1,EE,0013D9FC,word,0C03FFE0
